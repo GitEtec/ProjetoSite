@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*@import url('https://fonts.googleapis.com/css?family=Vibur');*/
+ @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Vibur');
+header#cabecalho img#icone{
+	position: absolute;
+	left: 998;
+	top:75px;
+}
+header#cabecalho{
+	
+	border-bottom:1px #000000 solid;
+	height: 150px;
+}
+nav#menu{
+	display: block;
+
+}
+nav#menu ul{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 15pt;
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	left: 253px;
+	margin: -10px;
+}
+nav#menu li{
+	display: inline-block;
+	background-color: #fbfbfb;
+
+	padding: 10px;
+	margin: 3px;
+	transition: background-color 1s;
+}
+nav#menu li:hover{
+	background-color: #eaead4;
+}
+nav#menu a{
+	color: #000000;
+	text-decoration: none;
+}
+nav#menu a:hover{
+	color:#000000;
+}
+section#corpo{
+	display: block;
+	width: 520px;
+	float: left;
+}
